@@ -23,8 +23,13 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  color:#fffa ;
+  letter-spacing: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -65,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 300px;
+  width: 250px;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
   transition: all 0.5s;
@@ -294,7 +299,7 @@ section {
 --------------------------------------------------------------*/
 .about .content h3 {
   font-weight: 700;
-  font-size: 26px;
+  font-size: 24px;
   color: #173b6c;
 }
 .about .content ul {
