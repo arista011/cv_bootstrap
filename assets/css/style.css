@@ -23,13 +23,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
-h2 {
-  font-family: "Poppins", sans-serif;
-  color:#fffa ;
-  letter-spacing: 10px;
+.tulis{
+  font-family: "Open Sans", sans-serif;
+  color: #ddddd;
 }
 
 /*--------------------------------------------------------------
@@ -49,7 +48,7 @@ h2 {
   transition: all 0.4s;
 }
 .back-to-top i {
-  font-size: 28px;
+  font-size: 25px;
   color: #fff;
   line-height: 0;
 }
@@ -70,7 +69,7 @@ h2 {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 250px;
+  width: 265px;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
   transition: all 0.5s;
@@ -118,7 +117,7 @@ h2 {
 }
 
 #main {
-  margin-left: 100px;
+  margin-left: 300px;
 }
 
 @media (max-width: 1199px) {
@@ -135,7 +134,7 @@ h2 {
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu {
-  padding: 20px 0 0 0;
+  padding: 30px 0 0 0;
 }
 .nav-menu * {
   margin: 0;
@@ -150,14 +149,14 @@ h2 {
   display: flex;
   align-items: center;
   color: #a8a9b4;
-  padding: 12px 15px;
+  padding: 8px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
-  font-size: 15px;
+  font-size: 13px;
 }
 .nav-menu a i, .nav-menu a:focus i {
   font-size: 24px;
-  padding-right: 5px;
+  padding-right: 8px;
   color: #6f7180;
 }
 .nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
@@ -172,7 +171,7 @@ h2 {
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
-  top: 15px;
+  top: 10px;
   z-index: 9998;
   border: 0;
   font-size: 24px;
@@ -299,7 +298,7 @@ section {
 --------------------------------------------------------------*/
 .about .content h3 {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 26px;
   color: #173b6c;
 }
 .about .content ul {
@@ -657,8 +656,7 @@ section {
   min-height: 320px;
 }
 .testimonials .testimonial-item .testimonial-img {
-  height: 20px;
-  width: 50px;
+  width: 90px;
   border-radius: 50%;
   margin: 0 auto;
 }
